@@ -1,0 +1,80 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(42, 124, 143);
+    min-height: 100vh;
+    font-size: 1.6rem;
+    font-family: "Raleway", sans-serif;
+}
+
+main {
+    background-color: white;
+    padding: 4rem;
+    max-width: 70rem;
+    margin: 5rem auto;
+}
+
+footer {
+    display: grid;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.418);
+    width: 100%;
+    color: black;
+    padding: 1rem;
+    justify-content: center;
+    align-content: center;
+}
+
+#skjemaHandleliste {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+#inpVare {
+    padding: 1rem;
+    font-size: 1.6rem;
+    outline: none;
+}
+
+#skjemaHandleliste button {
+    border: none;
+    background-color: rgb(42, 124, 143);
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer;
+    outline: none;
+}
+
+#skjemaHandleliste button:hover {
+    background-color: rgb(25, 71, 82);
+}
+
+#sectionHandleliste {
+    display: grid;
+    grid-template-columns: 1fr auto;  
+}
+
+#sectionHandleliste div {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid rgb(42, 124, 143);
+}
+
+#sectionHandleliste .btn {
+    background-color: rgb(165, 0, 0);
+    color: white;
+    padding: 1.2rem 1.4rem;
+    box-shadow:inset 0 0 0 0.6rem white;
+    cursor: pointer;
+    outline: none;
+}
