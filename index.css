@@ -36,7 +36,7 @@ footer {
 
 #skjemaHandleliste {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 1fr auto;
     gap: 1rem;
     padding: 2rem 0;
 }
@@ -68,6 +68,10 @@ footer {
 #sectionHandleliste div {
     padding: 1.5rem 0;
     border-bottom: 1px solid rgb(42, 124, 143);
+}
+
+#sectionHandleliste h2 {
+    grid-column: span 2;
 }
 
 #sectionHandleliste .btn {
